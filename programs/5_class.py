@@ -1,3 +1,6 @@
+#couldn't figure out how to make it more efficient
+
+
 class input_output_string(object):
    def __init__(self):
       self.s = ""

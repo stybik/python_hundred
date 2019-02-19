@@ -1,11 +1,12 @@
-n = int(raw_input("Enter the number of lines: "))
-lines = []
-i = 0
-while i < n:
-   s = raw_input()
-   lines.append(s.upper())
-   i = i+1
+# Write a program that accepts sequence of lines as input and prints the lines after making all characters in the sentence capitalized.
 
-   
-for i in lines:
-   print i
+lines = []
+while True:
+   s = raw_input()
+   if s:
+      lines.append(s.upper())
+   else:
+      break
+
+for sentence in lines:
+    print sentence

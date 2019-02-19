@@ -1,2 +1,11 @@
-19_sort_tuples.py  - from operator import itemgetter, attrgetter
+=> 19_sort_tuples.py  - from operator import itemgetter, attrgetter
 
+=> 5_class.py - couldn't figure out how to make it more efficient
+
+=> 8_sort.py - ""
+
+=> 9_upper.py - list comprehension cannot be used with while loop**
+
+
+948
+1130
