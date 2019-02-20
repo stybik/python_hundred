@@ -8,7 +8,7 @@
 # x = int(raw_input())
 # print fact(x)
 
-
+#can be done with factorial() also
 
 #Using Lambda reduce
 n = int(raw_input())

@@ -6,6 +6,8 @@
 
 => 9_upper.py - list comprehension cannot be used with while loop**
 
+=> 12_even.py - two statements, cannot be done by lambda
+
 
 948
 1130
