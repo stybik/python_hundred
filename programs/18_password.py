@@ -9,25 +9,34 @@
 # Your program should accept a sequence of comma separated passwords and will check them according to the above criteria. Passwords that match the criteria are to be printed, each separated by a comma.
 
 
+# import re
+# value = []
+# items=[x for x in raw_input().split(',')]
+# for p in items:
+#     if len(p)<6 or len(p)>12:
+#         continue
+#     else:
+#         pass
+#     if not re.search("[a-z]",p):
+#         continue
+#     elif not re.search("[0-9]",p):
+#         continue
+#     elif not re.search("[A-Z]",p):
+#         continue
+#     elif not re.search("[$#@]",p):
+#         continue
+#     elif re.search("\s",p):
+#         continue
+#     else:
+#         pass
+#     value.append(p)
+# print ",".join(value)
+
 import re
-value = []
-items=[x for x in raw_input().split(',')]
-for p in items:
-    if len(p)<6 or len(p)>12:
-        continue
-    else:
-        pass
-    if not re.search("[a-z]",p):
-        continue
-    elif not re.search("[0-9]",p):
-        continue
-    elif not re.search("[A-Z]",p):
-        continue
-    elif not re.search("[$#@]",p):
-        continue
-    elif re.search("\s",p):
-        continue
-    else:
-        pass
-    value.append(p)
-print ",".join(value)
+password = 'P@ss1234'
+required_pattern = re.compile('(?=.{6,})(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?=.*[@#$])')
+
+def check_validity(pw):
+    return required_pattern.match(pw) != None
+
+print check_validity(password)

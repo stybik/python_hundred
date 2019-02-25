@@ -2371,4 +2371,3 @@ solutions=solve(numheads,numlegs)
 print solutions
 
 #----------------------------------------#
-
