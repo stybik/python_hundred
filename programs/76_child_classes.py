@@ -1,14 +1,18 @@
+
+
 class Person(object):
-   def getGender(self):
-      return "Unknown"
+    def getGender(self):
+        return "Unknown"
+
 
 class Male(Person):
-   def getGender(self):
-      return "Male"
+    def getGender(self):
+        return "Male"
+
 
 class Female(Person):
-   def getGender(self):
-      return "Female"
+    def getGender(self):
+        return "Female"
 
 aMale = Male()
 aFemale = Female()

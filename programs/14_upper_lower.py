@@ -1,4 +1,5 @@
-# Write a program that accepts a sentence and calculate the number of upper case letters and lower case 
+# Write a program that accepts a sentence and calculate the number of upper
+# case letters and lower case
 
 # s = raw_input()
 # d={"UPPER CASE":0, "LOWER CASE":0}

@@ -1,4 +1,5 @@
-# A website requires the users to input username and password to register. Write a program to check the validity of password input by users.
+# A website requires the users to input username and password to register.
+# Write a program to check the validity of password input by users.
 # Following are the criteria for checking the password:
 # 1. At least 1 letter between [a-z]
 # 2. At least 1 number between [0-9]
@@ -6,7 +7,9 @@
 # 3. At least 1 character from [$#@]
 # 4. Minimum length of transaction password: 6
 # 5. Maximum length of transaction password: 12
-# Your program should accept a sequence of comma separated passwords and will check them according to the above criteria. Passwords that match the criteria are to be printed, each separated by a comma.
+# Your program should accept a sequence of comma separated passwords and will
+# check them according to the above criteria. Passwords that match the criteria
+# are to be printed, each separated by a comma.
 
 
 # import re
@@ -35,6 +38,7 @@
 import re
 password = 'P@ss1234'
 required_pattern = re.compile('(?=.{6,})(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?=.*[@#$])')
+
 
 def check_validity(pw):
     return required_pattern.match(pw) != None

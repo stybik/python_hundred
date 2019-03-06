@@ -12,6 +12,6 @@ val = []
 items = [x for x in raw_input().split(",")]
 print items
 for d in items:
-   val.append(str(int(round(math.sqrt(2*c*float(d)/h)))))
+    val.append(str(int(round(math.sqrt(2 * c * float(d) / h)))))
 
 print ",".join(val)

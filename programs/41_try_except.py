@@ -2,13 +2,13 @@
 
 
 def throws():
-   return 5/0
+    return 5/0
 
 try:
-   throws()
+    throws()
 except ZeroDivisionError:
-   print "Division by zero"
+    print "Division by zero"
 except Exception, err:
-   print 'Caught an exception'
+    print 'Caught an exception'
 finally:
-   print "In finally block for cleanup"
+    print "In finally block for cleanup"

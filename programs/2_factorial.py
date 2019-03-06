@@ -1,4 +1,4 @@
-#Recursion
+# Recursion
 
 # def fact(x):
 #    if(x == 0):
@@ -8,8 +8,8 @@
 # x = int(raw_input())
 # print fact(x)
 
-#can be done with factorial() also
+# can be done with factorial() also
 
-#Using Lambda reduce
+# Using Lambda reduce
 n = int(raw_input())
-print reduce(lambda x,y: x*y, range(1,n+1))
+print reduce(lambda x, y: x*y, range(1, n+1))

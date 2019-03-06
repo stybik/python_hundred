@@ -1,13 +1,14 @@
 # define a custom exception
 
+
 class MyError(Exception):
-   """My own exception class
+    """My own exception class
 
-   Attributes:
+    Attributes:
       msg -- explanation of the error
-   """
+    """
 
-   def __init__(self, msg):
-      self.msg = msg
+    def __init__(self, msg):
+        self.msg = msg
 
 error = MyError("something wrong")
