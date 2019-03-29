@@ -5,4 +5,5 @@
 
 string = "Hello world, I am the boss boss the world should fear!"
 words = string.split(" ")
+print ("The answer is: ")
 print (" ".join(sorted(list(set(words)))))
