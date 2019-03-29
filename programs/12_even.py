@@ -11,11 +11,7 @@
 # print ",".join(val)
 
 
-val = []
-for i in range(1000, 3001):
-    if all([j % 2 == 0 for j in str(i)]):
-        val.append(i)
-print val
+print ("HEllo World")
 
 # val = [
 #    i
