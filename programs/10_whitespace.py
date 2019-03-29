@@ -3,5 +3,6 @@
 #  removing all duplicate words and sorting them
 #  alphanumerically.
 
-words = raw_input("Enter a string: ").split(" ")
-print " ".join(sorted(list(set(words))))
+string = "Hello world, I am the boss boss the world should fear!"
+words = string.split(" ")
+print (" ".join(sorted(list(set(words)))))
